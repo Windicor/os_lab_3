@@ -1,0 +1,21 @@
+\section{Пример работы}
+
+Продемонстрирую работу программы на примере изображения панды. Оригинал:
+
+\includegraphics[scale=0.4]{panda}
+
+Используем два раза медианный фильтр с размером окна 5 (11*11 пикселей):
+
+\includegraphics[scale=0.3]{res}
+
+\begin{verbatim}
+
+windicor@Lina-HP:~$ ./median_filter pictures/panda.jpg res.png 2 5
+width:1024 height:683 channels:3 threads:4
+time:12s
+
+\end{verbatim}
+
+\pagebreak
+
+
